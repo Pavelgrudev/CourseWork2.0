@@ -4,7 +4,7 @@ import proSky.CourseWork20.model.Question;
 
 import java.util.Collection;
 
-public interface QuestionService {
+public interface QuestionService  {
     Question add(String question, String answer);
 
     Question add(Question question);

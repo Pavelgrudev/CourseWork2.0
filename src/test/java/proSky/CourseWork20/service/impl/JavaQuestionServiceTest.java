@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static proSky.CourseWork20.service.impl.TestConstants.*;
 
 
-class JavaQuestionServiceTest {
+class JavaQuestionServiceTest  {
     private final QuestionService questionService = new JavaQuestionService();
 
     @BeforeEach

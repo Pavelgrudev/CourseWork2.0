@@ -15,7 +15,7 @@ import static org.mockito.Mockito.when;
 import static proSky.CourseWork20.service.impl.TestConstants.*;
 
 @ExtendWith(MockitoExtension.class)
-class ExaminerServiceImplTest {
+class ExaminerServiceImplTest  {
 
     @Mock
     private QuestionService questionService;

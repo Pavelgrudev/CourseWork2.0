@@ -8,7 +8,7 @@ import proSky.CourseWork20.service.QuestionService;
 import java.util.*;
 
 @Service
-public class JavaQuestionService implements QuestionService {
+public class JavaQuestionService implements QuestionService  {
     private final Set<Question> questions = new HashSet<>();
     private final Random random = new Random();
 

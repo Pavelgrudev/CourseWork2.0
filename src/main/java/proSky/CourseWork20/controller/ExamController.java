@@ -9,7 +9,7 @@ import proSky.CourseWork20.service.ExaminerService;
 import java.util.Collection;
 
 @RestController
-public class ExamController  {
+public class ExamController {
     private final ExaminerService examinerService;
 
     public ExamController(ExaminerService examinerService) {
